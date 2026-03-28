@@ -1,0 +1,1144 @@
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.185976", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.185976", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.185976", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.185976", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.200033", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.200033", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.200033", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.201033", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.201033", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.201033", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.211139", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.211139", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 3, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.211139", "key": "10", "value": null, "old_value": "{'id': 10}", "status": "ABORTED"}
+{"txn_id": 3, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.211139", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.233210", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.233210", "key": "10", "value": "{'id': 10, 'value': 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.233210", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.233210", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:29:50.233210", "key": "10", "value": "{'id': 10, 'value': 200}", "old_value": "{'id': 10, 'value': 100}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.233210", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.248776", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.248776", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.248776", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.248776", "key": "30", "value": "{'id': 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.248776", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.270327", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.270327", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.270327", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.270327", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.270327", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:29:50.270327", "key": "1", "value": "{'id': 1, 'updated': True}", "old_value": "{'id': 1}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.270327", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.270327", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.288889", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.288889", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.288889", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.288889", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.289890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.289890", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.289890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.289890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.289890", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.290891", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.290891", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.290891", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.290891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.291890", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.291890", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.291890", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.291890", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.292893", "key": "12", "value": "{'id': 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.292893", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.292893", "key": "14", "value": "{'id': 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.292893", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.293891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.293891", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.293891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.293891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.293891", "key": "16", "value": "{'id': 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.293891", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.294397", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.294397", "key": "18", "value": "{'id': 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.294397", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.294397", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.294397", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.317080", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.317080", "key": "1", "value": "{'id': 1, 'value': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.317080", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.318086", "key": "2", "value": "{'id': 2, 'value': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.318086", "key": "3", "value": "{'id': 3, 'value': 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.318086", "key": "4", "value": "{'id': 4, 'value': 40}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.318086", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.319308", "key": "5", "value": "{'id': 5, 'value': 50}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.319308", "key": "6", "value": "{'id': 6, 'value': 60}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.319308", "key": "7", "value": "{'id': 7, 'value': 70}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.319308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.320307", "key": "8", "value": "{'id': 8, 'value': 80}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.320307", "key": "9", "value": "{'id': 9, 'value': 90}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.320307", "key": "10", "value": "{'id': 10, 'value': 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.320307", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.345105", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.345105", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.345105", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.346114", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.346114", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.346114", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.346114", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.346114", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.347112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.347112", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.348112", "key": "12", "value": "{'id': 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.348112", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.348112", "key": "14", "value": "{'id': 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.348112", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.348112", "key": "16", "value": "{'id': 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.348112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.349112", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.349112", "key": "18", "value": "{'id': 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.349112", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.349112", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.349112", "key": "1", "value": null, "old_value": "{'id': 1}", "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.349112", "key": "2", "value": null, "old_value": "{'id': 2}", "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.349112", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.350113", "key": "3", "value": null, "old_value": "{'id': 3}", "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.350113", "key": "4", "value": null, "old_value": "{'id': 4}", "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.350113", "key": "5", "value": null, "old_value": "{'id': 5}", "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.350113", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.371543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.371543", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.371543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.372542", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.372542", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.372542", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.372542", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.372542", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.372542", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.374048", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.374048", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.374048", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.374048", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.374048", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.374048", "key": "5", "value": null, "old_value": "{'id': 5}", "status": "ABORTED"}
+{"txn_id": 11, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.374048", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.433877", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.433877", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.433877", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.435234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.435234", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.435234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.436234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.436234", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.436234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.436234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.436234", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.436234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.436234", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.437236", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.437236", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.437236", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.437236", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.437236", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.438242", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.438242", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.438242", "key": "21", "value": "{'id': 21}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.438242", "key": "23", "value": "{'id': 23}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.438242", "key": "25", "value": "{'id': 25}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.438242", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.439240", "key": "27", "value": "{'id': 27}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:29:50.439240", "key": "29", "value": "{'id': 29}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.439240", "key": "7", "value": null, "old_value": "{'id': 7}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:29:50.439240", "key": "11", "value": null, "old_value": "{'id': 11}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "ABORT", "timestamp": "2026-03-26T09:29:50.439240", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.796553", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.796553", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.796553", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.796553", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.810067", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.810067", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.810067", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.811059", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.811059", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:16.811059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.826308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.826308", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.826308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.826308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.826308", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.826308", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.826308", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 3, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.826308", "key": "10", "value": null, "old_value": "{'id': 10}", "status": "ABORTED"}
+{"txn_id": 3, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:16.827301", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.845322", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.845322", "key": "10", "value": "{'id': 10, 'value': 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.845322", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.846326", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:30:16.846326", "key": "10", "value": "{'id': 10, 'value': 200}", "old_value": "{'id': 10, 'value': 100}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:16.846326", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.871183", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.871183", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.871183", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.871183", "key": "30", "value": "{'id': 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.871183", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.895380", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.895380", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.895380", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.895380", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.895380", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:30:16.895380", "key": "1", "value": "{'id': 1, 'updated': True}", "old_value": "{'id': 1}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.895380", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:16.895380", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.918935", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.918935", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.918935", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.918935", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.918935", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.918935", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.918935", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.919934", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.919934", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.919934", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.919934", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.919934", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.919934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.920927", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.920927", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.920927", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.920927", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.920927", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "12", "value": "{'id': 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "14", "value": "{'id': 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "16", "value": "{'id': 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.921934", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.921934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.922934", "key": "18", "value": "{'id': 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.922934", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.922934", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.922934", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.944543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.944543", "key": "1", "value": "{'id': 1, 'value': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.944543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.944543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.944543", "key": "2", "value": "{'id': 2, 'value': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.944543", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.945385", "key": "3", "value": "{'id': 3, 'value': 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.945385", "key": "4", "value": "{'id': 4, 'value': 40}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.945385", "key": "5", "value": "{'id': 5, 'value': 50}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.945385", "key": "6", "value": "{'id': 6, 'value': 60}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.945385", "key": "7", "value": "{'id': 7, 'value': 70}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.945385", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.946389", "key": "8", "value": "{'id': 8, 'value': 80}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.946389", "key": "9", "value": "{'id': 9, 'value': 90}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.946389", "key": "10", "value": "{'id': 10, 'value': 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.946389", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.964064", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.964064", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.964064", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.964064", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.964064", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.964064", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.965202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.965202", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.965202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.965202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.965202", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.965202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.966202", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.966202", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.966202", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.966202", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.966202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.967202", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.967202", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.967202", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.967202", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "12", "value": "{'id': 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "14", "value": "{'id': 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "16", "value": "{'id': 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.968218", "key": "18", "value": "{'id': 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.968218", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.969731", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.969731", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.969731", "key": "1", "value": null, "old_value": "{'id': 1}", "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.969731", "key": "2", "value": null, "old_value": "{'id': 2}", "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.969731", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.970745", "key": "3", "value": null, "old_value": "{'id': 3}", "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.970745", "key": "4", "value": null, "old_value": "{'id': 4}", "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.970745", "key": "5", "value": null, "old_value": "{'id': 5}", "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.970745", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.992600", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.992600", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.992600", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.994111", "key": "2", "value": "{'id': 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.994111", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.994111", "key": "4", "value": "{'id': 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.994111", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.994111", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.995117", "key": "6", "value": "{'id': 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.995117", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.995117", "key": "8", "value": "{'id': 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.995117", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.995117", "key": "10", "value": "{'id': 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:16.995117", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:16.996125", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:16.996125", "key": "20", "value": "{'id': 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:16.996125", "key": "5", "value": null, "old_value": "{'id': 5}", "status": "ABORTED"}
+{"txn_id": 11, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:16.996125", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.046551", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.046551", "key": "1", "value": "{'id': 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.046551", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.046551", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.046551", "key": "3", "value": "{'id': 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.046551", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.047534", "key": "5", "value": "{'id': 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.047534", "key": "7", "value": "{'id': 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.047534", "key": "9", "value": "{'id': 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.047534", "key": "11", "value": "{'id': 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.047534", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.048655", "key": "13", "value": "{'id': 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.048655", "key": "15", "value": "{'id': 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.048655", "key": "17", "value": "{'id': 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.048655", "key": "19", "value": "{'id': 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.048655", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.049653", "key": "21", "value": "{'id': 21}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.049653", "key": "23", "value": "{'id': 23}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.049653", "key": "25", "value": "{'id': 25}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.049653", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.050654", "key": "27", "value": "{'id': 27}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:30:17.050654", "key": "29", "value": "{'id': 29}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:17.050654", "key": "7", "value": null, "old_value": "{'id': 7}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:30:17.050654", "key": "11", "value": null, "old_value": "{'id': 11}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "ABORT", "timestamp": "2026-03-26T09:30:17.050654", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.506045", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.506045", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.506045", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.506045", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.526607", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.526607", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.526607", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.526607", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.526607", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.526607", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.553169", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.553169", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.553169", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.554168", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.554168", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.554168", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.554168", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 3, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.554168", "key": "10", "value": null, "old_value": "{\"id\": 10}", "status": "ABORTED"}
+{"txn_id": 3, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.554168", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.581264", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.581264", "key": "10", "value": "{\"id\": 10, \"value\": 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.581264", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.582264", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:31:31.582264", "key": "10", "value": "{\"id\": 10, \"value\": 200}", "old_value": "{\"id\": 10, \"value\": 100}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.582264", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.609567", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.610574", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.610574", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.610574", "key": "30", "value": "{\"id\": 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.610574", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.634118", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.634118", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.634118", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.634118", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.634118", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:31:31.634118", "key": "1", "value": "{\"id\": 1, \"updated\": true}", "old_value": "{\"id\": 1}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.634118", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.635121", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.670279", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.670279", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.670279", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.671280", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.671280", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.671280", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.671280", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.671280", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.671280", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.671280", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.671280", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.672277", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.672277", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.673787", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.673787", "key": "12", "value": "{\"id\": 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.673787", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.673787", "key": "14", "value": "{\"id\": 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.673787", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.674840", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.674840", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.674840", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.674840", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.674840", "key": "16", "value": "{\"id\": 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.674840", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.675384", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.675384", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.675384", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.675384", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.675384", "key": "18", "value": "{\"id\": 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.675384", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.675802", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.675802", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.675802", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.675802", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.675802", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.675802", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.697577", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.697577", "key": "1", "value": "{\"id\": 1, \"value\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.697577", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.698094", "key": "2", "value": "{\"id\": 2, \"value\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.698094", "key": "3", "value": "{\"id\": 3, \"value\": 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.698094", "key": "4", "value": "{\"id\": 4, \"value\": 40}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.698094", "key": "5", "value": "{\"id\": 5, \"value\": 50}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.698094", "key": "6", "value": "{\"id\": 6, \"value\": 60}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.698094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.699092", "key": "7", "value": "{\"id\": 7, \"value\": 70}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.699092", "key": "8", "value": "{\"id\": 8, \"value\": 80}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.699092", "key": "9", "value": "{\"id\": 9, \"value\": 90}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.699092", "key": "10", "value": "{\"id\": 10, \"value\": 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.699092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.722822", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.722822", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.722822", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.722822", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.723821", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.723821", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.723821", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.723821", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.723821", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.723821", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.724331", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.724331", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.724331", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.724331", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.724331", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.725337", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.725337", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.725337", "key": "12", "value": "{\"id\": 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.725337", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.726338", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.726338", "key": "14", "value": "{\"id\": 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.726338", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.726338", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.727348", "key": "16", "value": "{\"id\": 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.727348", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.727348", "key": "18", "value": "{\"id\": 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.727348", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.727348", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.727348", "key": "1", "value": null, "old_value": "{\"id\": 1}", "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.727348", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.728535", "key": "2", "value": null, "old_value": "{\"id\": 2}", "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.728535", "key": "3", "value": null, "old_value": "{\"id\": 3}", "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.728535", "key": "4", "value": null, "old_value": "{\"id\": 4}", "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.728535", "key": "5", "value": null, "old_value": "{\"id\": 5}", "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.728535", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.760206", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.760206", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.760206", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.761205", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.761205", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.761205", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.761205", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.761205", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.761205", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.762189", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.762189", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.762189", "key": "5", "value": null, "old_value": "{\"id\": 5}", "status": "ABORTED"}
+{"txn_id": 11, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.763609", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.819302", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.819302", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.819302", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.819302", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.820413", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.820413", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "21", "value": "{\"id\": 21}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "23", "value": "{\"id\": 23}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "25", "value": "{\"id\": 25}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "27", "value": "{\"id\": 27}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:31:31.821421", "key": "29", "value": "{\"id\": 29}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:31:31.821421", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:31:31.822424", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.822424", "key": "7", "value": null, "old_value": "{\"id\": 7}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:31:31.822424", "key": "11", "value": null, "old_value": "{\"id\": 11}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "ABORT", "timestamp": "2026-03-26T09:31:31.822424", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.931335", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.931335", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.931335", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:06.931335", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.964376", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.964376", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:06.964376", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.964376", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.964376", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:06.964376", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.996316", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.996316", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:06.996316", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.997320", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:06.997320", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:06.997320", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:06.998322", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 3, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:06.998322", "key": "10", "value": null, "old_value": "{\"id\": 10}", "status": "ABORTED"}
+{"txn_id": 3, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:06.998322", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.024465", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.024465", "key": "10", "value": "{\"id\": 10, \"value\": 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.024465", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.025458", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:43:07.025458", "key": "10", "value": "{\"id\": 10, \"value\": 200}", "old_value": "{\"id\": 10, \"value\": 100}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:07.025458", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.051029", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.051029", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.051029", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.052041", "key": "30", "value": "{\"id\": 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.052041", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.082962", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.082962", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.082962", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.083482", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.083482", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "UPDATE", "timestamp": "2026-03-26T09:43:07.083482", "key": "1", "value": "{\"id\": 1, \"updated\": true}", "old_value": "{\"id\": 1}", "status": "ABORTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.083482", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 2, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:07.083482", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.111060", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.111060", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.111060", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.112058", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.112058", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.112058", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.112058", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.112058", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.112058", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.113052", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.113052", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.113052", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.113052", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.113052", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.114090", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.114090", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.114090", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.115094", "key": "12", "value": "{\"id\": 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.115094", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.115094", "key": "14", "value": "{\"id\": 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.115094", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.116092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.116092", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.116092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.116092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.116092", "key": "16", "value": "{\"id\": 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.116092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.116092", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.116092", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.117616", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.117616", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.117616", "key": "18", "value": "{\"id\": 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.117616", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.118635", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.118635", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.118635", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.118635", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.118635", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.118635", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.144493", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.144493", "key": "1", "value": "{\"id\": 1, \"value\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.144493", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.145487", "key": "2", "value": "{\"id\": 2, \"value\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.145487", "key": "3", "value": "{\"id\": 3, \"value\": 30}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.145487", "key": "4", "value": "{\"id\": 4, \"value\": 40}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.145487", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "5", "value": "{\"id\": 5, \"value\": 50}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "6", "value": "{\"id\": 6, \"value\": 60}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "7", "value": "{\"id\": 7, \"value\": 70}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "8", "value": "{\"id\": 8, \"value\": 80}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "9", "value": "{\"id\": 9, \"value\": 90}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.146494", "key": "10", "value": "{\"id\": 10, \"value\": 100}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.146494", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.170545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.170545", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.170545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.171545", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.171545", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.173053", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.173053", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.173053", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.173053", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.173053", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.174059", "key": "12", "value": "{\"id\": 12}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.174059", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.174059", "key": "14", "value": "{\"id\": 14}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.174059", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.174059", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.175062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.175062", "key": "16", "value": "{\"id\": 16}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.175062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.175062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.175062", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 17, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.175062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.176062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.176062", "key": "18", "value": "{\"id\": 18}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 18, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.176062", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.177063", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.177063", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 19, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.177063", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.177063", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.177063", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 20, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.177063", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.178073", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.178073", "key": "1", "value": null, "old_value": "{\"id\": 1}", "status": "COMMITTED"}
+{"txn_id": 21, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.178073", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.178073", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.178073", "key": "2", "value": null, "old_value": "{\"id\": 2}", "status": "COMMITTED"}
+{"txn_id": 22, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.178073", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.179078", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.179078", "key": "3", "value": null, "old_value": "{\"id\": 3}", "status": "COMMITTED"}
+{"txn_id": 23, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.179078", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.179078", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.179078", "key": "4", "value": null, "old_value": "{\"id\": 4}", "status": "COMMITTED"}
+{"txn_id": 24, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.179078", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.180084", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.180084", "key": "5", "value": null, "old_value": "{\"id\": 5}", "status": "COMMITTED"}
+{"txn_id": 25, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.180084", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.206925", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.206925", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.206925", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.206925", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.206925", "key": "2", "value": "{\"id\": 2}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.206925", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.207917", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.207917", "key": "4", "value": "{\"id\": 4}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.207917", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.207917", "key": "6", "value": "{\"id\": 6}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.207917", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.207917", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.208924", "key": "8", "value": "{\"id\": 8}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.208924", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.208924", "key": "10", "value": "{\"id\": 10}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.208924", "key": "20", "value": "{\"id\": 20}", "old_value": null, "status": "ABORTED"}
+{"txn_id": 11, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.208924", "key": "5", "value": null, "old_value": "{\"id\": 5}", "status": "ABORTED"}
+{"txn_id": 11, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:07.208924", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.269286", "key": "1", "value": "{\"id\": 1}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 1, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.269286", "key": "3", "value": "{\"id\": 3}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 2, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.269286", "key": "5", "value": "{\"id\": 5}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 3, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.269286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.270285", "key": "7", "value": "{\"id\": 7}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 4, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.270285", "key": "9", "value": "{\"id\": 9}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 5, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.270285", "key": "11", "value": "{\"id\": 11}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 6, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.270285", "key": "13", "value": "{\"id\": 13}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 7, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.270285", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.271286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.271286", "key": "15", "value": "{\"id\": 15}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 8, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.271286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.271286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.271286", "key": "17", "value": "{\"id\": 17}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 9, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.271286", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.272290", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.272290", "key": "19", "value": "{\"id\": 19}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 10, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.272290", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.272290", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.272290", "key": "21", "value": "{\"id\": 21}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 11, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.272290", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.273288", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.273288", "key": "23", "value": "{\"id\": 23}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 12, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.273288", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.273288", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.273288", "key": "25", "value": "{\"id\": 25}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 13, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.273288", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.274488", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.274488", "key": "27", "value": "{\"id\": 27}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 14, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.274488", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.274488", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "INSERT", "timestamp": "2026-03-26T09:43:07.274488", "key": "29", "value": "{\"id\": 29}", "old_value": null, "status": "COMMITTED"}
+{"txn_id": 15, "op_type": "COMMIT", "timestamp": "2026-03-26T09:43:07.274488", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
+{"txn_id": 16, "op_type": "BEGIN", "timestamp": "2026-03-26T09:43:07.275489", "key": null, "value": null, "old_value": null, "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.275489", "key": "7", "value": null, "old_value": "{\"id\": 7}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "DELETE", "timestamp": "2026-03-26T09:43:07.275489", "key": "11", "value": null, "old_value": "{\"id\": 11}", "status": "ABORTED"}
+{"txn_id": 16, "op_type": "ABORT", "timestamp": "2026-03-26T09:43:07.275489", "key": null, "value": null, "old_value": null, "status": "COMMITTED"}
