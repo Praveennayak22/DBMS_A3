@@ -17,3 +17,5 @@ python benchmark.py
 ## Graphviz notes
 Install Graphviz system binaries to render PNG output from DOT:
 - Windows: install from graphviz.org and ensure `dot` is in PATH.
+
+This to check if A2 files have been uploaded.
